@@ -82,6 +82,7 @@ const useBluetooth = (
         filters: [
           {
             namePrefix: 'PAX',
+
           },
         ],
         optionalServices: optionalServices,
