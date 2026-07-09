@@ -81,7 +81,7 @@ const useBluetooth = (
       const btDevice = await navigator.bluetooth.requestDevice({
         filters: [
           {
-            namePrefix: 'PAX,
+            namePrefix: 'PAX',
           },
         ],
         optionalServices: optionalServices,
