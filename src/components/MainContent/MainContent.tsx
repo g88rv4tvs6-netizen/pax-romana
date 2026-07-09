@@ -52,7 +52,7 @@ const MainContent = () => {
       );
     }
 
-    if (!(isChrome || isChromium || isEdgeChromium)) {
+    if (!(isChrome || isChromium || isEdgeChromium || 'bluetooth' in navigator)) {
       return (
         <div className="mx-auto place-content-center">
           <div className="flex justify-center">
