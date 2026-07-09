@@ -52,8 +52,7 @@ const MainContent = () => {
       );
     }
 
-        if (
-      !(isChrome || isChromium || isEdgeChromium || 'bluetooth' in navigator)
+    if (!(isChrome || isChromium || isEdgeChromium || 'bluetooth' in navigator)
     ) {
 
       return (
