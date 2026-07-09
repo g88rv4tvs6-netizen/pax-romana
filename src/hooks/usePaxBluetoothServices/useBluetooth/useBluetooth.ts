@@ -65,7 +65,7 @@ const parseErrors = (error: unknown): void => {
 };
 
 const useBluetooth = (
-  device: string,
+  _device: string,
   primaryService: string,
   optionalServices: string[],
 ): BluetoothHookState => {
